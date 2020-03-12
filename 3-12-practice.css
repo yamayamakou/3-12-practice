@@ -1,0 +1,51 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  max-width:2000px;
+  background-color:#7CF371;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo{
+  position:absolute;
+  top:170px;
+}
+
+#pphoto{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+.photo ul{
+  display:flex;
+}
+
+.pho{
+  width:220px;
+  display:none;
+}
+
+.btn{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+#bbtn{
+  position:absolute;
+  top:450px;
+}
